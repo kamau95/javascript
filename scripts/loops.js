@@ -35,3 +35,25 @@ if (!isNaN(size)) {
 } else {
   console.log("Missing size")
 }
+
+//prints the addition of 2 integers
+function add(a, b) {
+  return a + b;
+}
+const first = Number(process.argv[2]);
+const second = Number(process.argv[3]);
+let result = add(first, second);
+console.log(result);
+
+//computes and prints a factorial
+let n = Number(process.argv[2]);
+let ans = 1;
+if (n >= 0) {
+  while ( n > 1 ) {
+    ans *= n;
+    n--;
+  }
+  console.log(ans);
+} else {
+  console.log("no factorial for negative numbers");
+}
