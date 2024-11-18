@@ -1,0 +1,7 @@
+Yes, it is entirely possible to avoid using dot notation and exclusively use square brackets ([]) for accessing JavaScript object properties. Both dot notation and square bracket notation are valid ways to access properties in JavaScript objects. However, square bracket notation offers additional flexibility that dot notation doesn't provide.
+
+Why You Might Prefer Square Bracket Notation
+Dynamic Property Names: You can use variables to dynamically access properties.
+Special Characters: Properties with spaces, hyphens, or other special characters must be accessed with square brackets.
+Reserved Words: Reserved keywords can be accessed safely using square brackets.
+Unified Syntax: Avoiding dot notation might make your code more consistent if you prefer one approach.
