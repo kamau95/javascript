@@ -19,7 +19,7 @@ console.log(checkSpam('buy ViAgRA now'));
 //a string must not exceed certain length
 function truncate(str, maxlength) {
   if (str.length > maxlength) {
-    console.log(str.slice(0, maxlength - 1) + "...");
+    console.log(+str.slice(0, maxlength - 1) + "...");
   } else {
     console.log(str);
   }
@@ -30,4 +30,4 @@ truncate("linus was very happy today", 20)
 function extractCurrencyValue(str) {
   console.log(str.slice(1));
 }
-extractCurrencyValue("$56")
+extractCurrencyValue("$56");
