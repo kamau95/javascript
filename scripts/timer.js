@@ -7,5 +7,5 @@ setTimeout(() => {clearInterval(timeId); console.log("stop")}, 700);
 //nested timeout
 let timing1 = setTimeout( () => {
   console.log("request finished");
-  timing1 = setTimeout( () => console.log("as planned"), 4000);
+  let timing2 = setTimeout( () => console.log("as planned"), 4000);
 }, 4000);
